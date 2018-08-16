@@ -1,4 +1,4 @@
-package com.fengbaogu.config;
+package com.singgel.config;
 
 import java.net.InetSocketAddress;
 import java.util.HashMap;
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
-import com.fengbaogu.handlers.StringProtocolInitalizer;
+import com.singgel.handlers.StringProtocolInitalizer;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelOption;

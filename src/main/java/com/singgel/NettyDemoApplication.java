@@ -1,4 +1,4 @@
-package com.fengbaogu;
+package com.singgel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

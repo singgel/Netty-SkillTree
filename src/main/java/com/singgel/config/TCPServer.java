@@ -1,4 +1,4 @@
-package com.fengbaogu.config;
+package com.singgel.config;
 
 import java.net.InetSocketAddress;
 

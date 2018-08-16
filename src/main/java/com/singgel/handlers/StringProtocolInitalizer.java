@@ -1,4 +1,4 @@
-package com.fengbaogu.handlers;
+package com.singgel.handlers;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;

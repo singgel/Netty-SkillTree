@@ -1,4 +1,4 @@
-package com.fengbaogu;
+package com.singgel;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
