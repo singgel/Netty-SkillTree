@@ -39,10 +39,6 @@ public class ServerHandler extends SimpleChannelInboundHandler<String> {
 	
 	@Override
 	public void channelActive(ChannelHandlerContext ctx) throws Exception {
-		
-		
-		
-		
 		log.info("RamoteAddress : " + ctx.channel().remoteAddress() + " active !");
         
         ctx.channel().writeAndFlush( "Welcome to " + InetAddress.getLocalHost().getHostName() + " service!\n");
