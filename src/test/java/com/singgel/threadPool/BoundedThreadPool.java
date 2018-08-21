@@ -5,12 +5,12 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-public class ThreadPoolExcutorTest implements Runnable {
+public class BoundedThreadPool implements Runnable {
 
 
     public String name;
 
-    public ThreadPoolExcutorTest(String name) {
+    public BoundedThreadPool(String name) {
         this.name = name;
     }
 
@@ -44,12 +44,12 @@ public class ThreadPoolExcutorTest implements Runnable {
                 //SynchronousQueue
                 workQueue //一个阻塞队列，用来存储等待执行的任务
         );
-        threadPool.execute(new ThreadPoolExcutorTest("任务1"));
-        threadPool.execute(new ThreadPoolExcutorTest("任务2"));
-        threadPool.execute(new ThreadPoolExcutorTest("任务3"));
-        threadPool.execute(new ThreadPoolExcutorTest("任务4"));
-        threadPool.execute(new ThreadPoolExcutorTest("任务5"));
-        threadPool.execute(new ThreadPoolExcutorTest("任务6"));
+        threadPool.execute(new BoundedThreadPool("任务1"));
+        threadPool.execute(new BoundedThreadPool("任务2"));
+        threadPool.execute(new BoundedThreadPool("任务3"));
+        threadPool.execute(new BoundedThreadPool("任务4"));
+        threadPool.execute(new BoundedThreadPool("任务5"));
+        threadPool.execute(new BoundedThreadPool("任务6"));
         threadPool.shutdown();
     }
 
