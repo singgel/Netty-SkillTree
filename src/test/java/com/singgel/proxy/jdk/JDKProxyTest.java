@@ -1,7 +1,8 @@
 package com.singgel.proxy.jdk;
 
-import com.hks.eightsortingalgorithms.proxy.UserService;
-import com.hks.eightsortingalgorithms.proxy.UserServiceImpl;
+
+import com.singgel.proxy.UserService;
+import com.singgel.proxy.UserServiceImpl;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;

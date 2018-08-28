@@ -1,7 +1,8 @@
 package com.singgel.proxy.cglib;
 
-import com.hks.eightsortingalgorithms.proxy.UserService;
-import com.hks.eightsortingalgorithms.proxy.UserServiceImpl;
+import com.singgel.proxy.UserService;
+import com.singgel.proxy.UserServiceImpl;
+
 import net.sf.cglib.proxy.Enhancer;
 
 public class CglibProxyTest {
