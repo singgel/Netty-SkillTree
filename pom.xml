@@ -64,6 +64,12 @@
 			<artifactId>cglib</artifactId>
 			<version>3.2.7</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
+		<dependency>
+			<groupId>org.apache.hadoop</groupId>
+			<artifactId>hadoop-common</artifactId>
+			<version>3.1.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
