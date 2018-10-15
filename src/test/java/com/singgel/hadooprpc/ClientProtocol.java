@@ -1,5 +1,7 @@
 package com.singgel.hadooprpc;
 
+import org.apache.hadoop.ipc.VersionedProtocol;
+
 import java.io.IOException;
 
 interface ClientProtocol extends VersionedProtocol {
