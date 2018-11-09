@@ -70,6 +70,17 @@
 			<artifactId>hadoop-common</artifactId>
 			<version>3.1.1</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+			<version>3.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java-util</artifactId>
+			<version>3.3.1</version>
+		</dependency>
 	</dependencies>
 
 	<build>
