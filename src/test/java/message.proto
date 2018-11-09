@@ -1,0 +1,36 @@
+syntax = "proto2";
+package com.rsy.netty.protobuf;
+option java_package = "com.singgel.nettyMulitProtobuf";
+option java_outer_classname = "DataInfo";
+
+message Datas{
+    enum DataType {
+        personType = 1;
+        dogType = 2;
+    }
+
+    required DataType data_type = 1;
+
+    oneof type_data{
+        Person person = 2;
+        Dog dog = 3;
+    }
+}
+
+message Person{
+    required int32 id = 1;
+    optional string name = 2;
+
+    enum Gender {
+        male = 1;
+        female = 2;
+    }
+
+    optional Gender gender = 3;
+}
+
+message Dog {
+    required float height = 1;
+    optional string color = 2;
+    optional int64 age = 3;
+}
