@@ -1,4 +1,4 @@
-package com.singgel.nettyProtobuf;
+package com.singgel.protocolBuffer;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -9,10 +9,10 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 
 
-import com.singgel.nettyProtobuf.protobuf.AddressBookProtos.AddressBook;
-import com.singgel.nettyProtobuf.protobuf.AddressBookProtos.Person;
-import com.singgel.nettyProtobuf.protobuf.AddressBookProtos.Person.PhoneNumber;
-import com.singgel.nettyProtobuf.protobuf.AddressBookProtos.Person.PhoneType;
+import com.singgel.protocolBuffer.protobuf.AddressBookProtos.AddressBook;
+import com.singgel.protocolBuffer.protobuf.AddressBookProtos.Person;
+import com.singgel.protocolBuffer.protobuf.AddressBookProtos.Person.PhoneNumber;
+import com.singgel.protocolBuffer.protobuf.AddressBookProtos.Person.PhoneType;
 
 /**
  * 使用protobuf类示例:

@@ -1,16 +1,16 @@
-package com.singgel.nettyProtobuf;
+package com.singgel.protocolBuffer;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-import com.singgel.nettyProtobuf.protobuf.AddressBookProtos.AddressBook;
-import com.singgel.nettyProtobuf.protobuf.AddressBookProtos.Person;
-import com.singgel.nettyProtobuf.protobuf.AddressBookProtos.Person.PhoneNumber;
+import com.singgel.protocolBuffer.protobuf.AddressBookProtos.AddressBook;
+import com.singgel.protocolBuffer.protobuf.AddressBookProtos.Person;
+import com.singgel.protocolBuffer.protobuf.AddressBookProtos.Person.PhoneNumber;
 
 /**
  * 从protobuf序列化文件读取数据。
- * @desc com.singgel.nettyProtobuf.protobuf.ListPeople
+ * @desc com.singgel.protocolBuffer.protobuf.ListPeople
  *
  * @Author: hekuangsheng
  * @Date: 2018/11/9
