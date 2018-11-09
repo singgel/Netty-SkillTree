@@ -2,7 +2,7 @@ syntax = "proto2";
 
 package tutorial;
 
-option java_package = "com.singgel.nettyProtobuf.protobuf";
+option java_package = "com.singgel.protocolBuffer.protobuf";
 option java_outer_classname = "AddressBookProtos";
 
 message Person {
