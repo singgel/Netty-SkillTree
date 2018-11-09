@@ -12,8 +12,9 @@ import org.springframework.stereotype.Component;
 
 /**
  * Just a dummy protocol mainly to show the ServerBootstrap being initialized.
- * 
- * @author Abraham Menacherry
+ *
+ * @Author: hekuangsheng
+ * @Date: 2017/11/8
  * 
  */
 @Component

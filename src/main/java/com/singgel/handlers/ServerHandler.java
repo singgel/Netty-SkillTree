@@ -11,6 +11,11 @@ import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
+/**
+ * @Author: hekuangsheng
+ * @Date: 2017/11/8
+ *
+ */
 @Component
 @Qualifier("serverHandler")
 @Sharable
