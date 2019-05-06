@@ -10,7 +10,7 @@ import io.netty.channel.ChannelInboundHandlerAdapter;
 * Title: NettyClientHandler
 * Description: Netty客户端业务逻辑处理    
 * Version:1.0.0  
-* @author pancm
+* @author hekuangsheng
 * @date 2017年9月20日
  */
 public class NettyClientHandler extends ChannelInboundHandlerAdapter{  

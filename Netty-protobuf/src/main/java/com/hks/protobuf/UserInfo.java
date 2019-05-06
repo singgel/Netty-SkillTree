@@ -422,7 +422,7 @@ public final class UserInfo {
                 com.hks.protobuf.UserInfo.UserMsg.class, com.hks.protobuf.UserInfo.UserMsg.Builder.class);
       }
 
-      // Construct using com.pancm.protobuf.UserInfo.UserMsg.newBuilder()
+      // Construct using com.hekuangsheng.protobuf.UserInfo.UserMsg.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -820,7 +820,7 @@ public final class UserInfo {
     java.lang.String[] descriptorData = {
       "\n\nUser.proto\"?\n\007UserMsg\022\n\n\002id\030\001 \001(\005\022\014\n\004n" +
       "ame\030\002 \001(\t\022\013\n\003age\030\003 \001(\005\022\r\n\005state\030\004 \001(\005B\036\n" +
-      "\022com.pancm.protobufB\010UserInfob\006proto3"
+      "\022com.hekuangsheng.protobufB\010UserInfob\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

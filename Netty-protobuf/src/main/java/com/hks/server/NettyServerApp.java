@@ -4,7 +4,7 @@ package com.hks.server;
 * @Title: NettyClientApp
 * @Description: Netty 服务端主程序
 * @Version:1.0.0  
-* @author pancm
+* @author hekuangsheng
 * @date 2018年7月11日
 */
 public class NettyServerApp {

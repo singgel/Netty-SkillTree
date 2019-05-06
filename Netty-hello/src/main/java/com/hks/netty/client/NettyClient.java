@@ -13,7 +13,7 @@ import java.io.IOException;
 * Description: 
 * Netty客户端 
 * Version:1.0.0  
-* @author pancm
+* @author hekuangsheng
 * @date 2017-8-31
  */
 public class NettyClient {

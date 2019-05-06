@@ -1,6 +1,6 @@
 syntax = "proto3";
 // 生成的包名
-option java_package="com.pancm.protobuf";
+option java_package="com.hekuangsheng.protobuf";
 //生成的java名
 option java_outer_classname = "UserInfo";
 

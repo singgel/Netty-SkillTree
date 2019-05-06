@@ -18,7 +18,7 @@ import io.netty.handler.timeout.IdleStateHandler;
  * @Title: HelloServerInitializer
  * @Description: Netty 服务端过滤器
  * @Version:1.0.0  
- * @author pancm
+ * @author hekuangsheng
  * @date 2017年10月8日
   */
 public class NettyServerFilter extends ChannelInitializer<SocketChannel> {

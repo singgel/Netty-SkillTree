@@ -6,7 +6,7 @@ import com.alibaba.fastjson.JSONObject;
 * @Title: Message
 * @Description: 
 * @Version:1.0.0  
-* @author pancm
+* @author hekuangsheng
 * @date 2019年1月16日
 */
 public class Message {

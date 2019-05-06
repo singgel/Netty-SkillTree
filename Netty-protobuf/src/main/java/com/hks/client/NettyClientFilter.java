@@ -17,7 +17,7 @@ import io.netty.handler.timeout.IdleStateHandler;
 * @Title: NettyClientFilter
 * @Description: Netty客户端 过滤器
 * @Version:1.0.0  
-* @author pancm
+* @author hekuangsheng
 * @date 2017年10月8日
  */
 public class NettyClientFilter extends ChannelInitializer<SocketChannel> {

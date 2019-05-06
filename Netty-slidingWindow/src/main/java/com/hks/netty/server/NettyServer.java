@@ -17,7 +17,7 @@ import io.netty.util.concurrent.EventExecutor;
  * @Title: NettyServer
  * @Description: Netty服务端 滑动窗口 测试
  * @Version:1.0.0
- * @author pancm
+ * @author hekuangsheng
  * @date 2019年1月16日
  */
 public class NettyServer {

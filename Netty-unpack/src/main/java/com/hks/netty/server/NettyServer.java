@@ -19,7 +19,7 @@ import java.net.InetSocketAddress;
 * Title: NettyServerDemo2
 * Description:  Netty服务端   用于测试粘包、拆包
 * Version:1.0.0  
-* @author pancm
+* @author hekuangsheng
 * @date 2017年9月20日
  */
 public class NettyServer {

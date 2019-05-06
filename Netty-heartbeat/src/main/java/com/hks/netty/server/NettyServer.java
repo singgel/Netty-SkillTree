@@ -12,7 +12,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 * Description: Netty服务端
 * 心跳测试
 * Version:1.0.0  
-* @author pancm
+* @author hekuangsheng
 * @date 2017年10月8日
  */
 public class NettyServer {

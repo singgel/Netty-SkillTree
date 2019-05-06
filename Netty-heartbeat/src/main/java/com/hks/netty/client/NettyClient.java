@@ -12,7 +12,7 @@ import java.io.IOException;
 * Description: 
 * Netty客户端  心跳测试
 * Version:1.0.0  
-* @author pancm
+* @author hekuangsheng
 * @date 2017年10月8日
  */
 public class NettyClient {

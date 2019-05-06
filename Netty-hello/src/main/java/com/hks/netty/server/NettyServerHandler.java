@@ -11,7 +11,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 * Description: 
 *  服务端业务逻辑
 * Version:1.0.0  
-* @author pancm
+* @author hekuangsheng
 * @date 2017-8-31
  */
 public class NettyServerHandler extends SimpleChannelInboundHandler<String> {
