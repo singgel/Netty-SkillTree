@@ -15,6 +15,10 @@ Netty-protobuf: Netty 使用protobuf 协议进行数据数据传输。
 
 Netty-slidingWindow: Netty 结合滑动窗口使用示例。
 
+[Netty 4.x User Guide 中文翻译《Netty 4.x 用户指南》](https://waylau.com/netty-4-user-guide/)
+
+[Essential Netty in Action 《Netty 实战(精髓)》](https://waylau.gitbooks.io/essential-netty-in-action/)
+
 * 干净的springboot-netty配套CSDN地址：https://blog.csdn.net/singgel/article/details/79703721
 
 * 又搞了一版，这个可以通过Telnet实现聊天：https://github.com/singgel/SpringBoot-Templates/tree/master/spring-boot-netty
